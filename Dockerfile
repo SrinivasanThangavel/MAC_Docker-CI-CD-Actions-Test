@@ -1,4 +1,4 @@
 FROM openjdk
 EXPOSE 8081
-ADD target/MAC_Docker-CI-CD-Actions-Test.jar MAC_Docker-CI-CD-Actions-Test.jar
-ENTRYPOINT ["java","-jar","MAC_Docker-CI-CD-Actions-Test.jar"]
+ADD target/Medical-Records-Access-Control-Service-0.0.1-SNAPSHOT.jar Medical-Records-Access-Control-Service-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","Medical-Records-Access-Control-Service-0.0.1-SNAPSHOT.jar"]
