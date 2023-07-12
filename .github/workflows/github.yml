@@ -35,7 +35,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v3
       with:
         image: srinivastvs7766/testrepo
-        tags: latest
+        tags: 1.0.1
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USER_NAME }}
