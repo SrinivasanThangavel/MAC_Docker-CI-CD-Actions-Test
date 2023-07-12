@@ -10,7 +10,7 @@ public class MedicalRecordsAccessControlServiceApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("Hello World , Srinivasan Here");
+		System.out.println("Hello World , Srinivasan");
 
 		SpringApplication.run(MedicalRecordsAccessControlServiceApplication.class, args);
 	}
